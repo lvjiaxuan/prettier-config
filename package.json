@@ -1,0 +1,25 @@
+{
+  "name": "@lvjiaxuan/prettier-config",
+  "version": "0.0.1",
+  "description": "Lvjx's personal prettier config",
+  "main": "index.js",
+  "keywords": ["prettier", "prettierrc"],
+  "files": ["./prettierrc.js", "./prettierrc.mjs", "./package.json", "./README.md"],
+  "author": "lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)",
+  "exports": {
+    ".": {
+      "import": "./prettierrc.mjs",
+      "default":"./prettierrc.js"
+    }
+  },
+  "repository": {
+    "url": "https://github.com/lvjiaxuan/prettier-config",
+    "type": "git",
+    "directory": "."
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT"
+}

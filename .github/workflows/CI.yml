@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    tags: v*
+
+jobs:
+  release_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lvjiaxuan/release-deploy-publish-action
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          enableReleaseBoolean: true
+
+  publish_job:
+    runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - uses: actions/setup-node@v3
+          env:
+            NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          with:
+            node-version: 16
+        - run: npm publish

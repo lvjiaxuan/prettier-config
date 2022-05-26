@@ -6,7 +6,9 @@
 
 Install:
 ```bash
-pnpm add @lvjiaxuan/prettier-config -D --registry=https://npm.pkg.github.com
+npm i @lvjiaxuan/prettier-config -D
+pnpm add @lvjiaxuan/prettier-config -D
+yarn add @lvjiaxuan/prettier-config -D
 ```
 
 Edit *package.json*:

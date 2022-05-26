@@ -1,15 +1,14 @@
 {
   "name": "@lvjiaxuan/prettier-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lvjx's personal prettier config",
-  "main": "index.js",
   "keywords": ["prettier", "prettierrc"],
   "files": ["*"],
   "author": "lvjiaxuan <471501748@qq.com> (https://github.com/lvjiaxuan)",
   "exports": {
     ".": {
-      "import": "./prettierrc.mjs",
-      "default":"./prettierrc.js"
+      "import": "./.prettierrc.mjs",
+      "default":"./.prettierrc.js"
     }
   },
   "repository": {

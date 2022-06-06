@@ -22,4 +22,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           node-version: 16
+          registry-url: 'https://registry.npmjs.org'
       - run: npm publish

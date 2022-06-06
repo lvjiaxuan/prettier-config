@@ -16,9 +16,5 @@
     "type": "git",
     "directory": "."
   },
-  "publishConfig": {
-    "tag": "latest",
-    "access": "public"
-  },
   "license": "MIT"
 }

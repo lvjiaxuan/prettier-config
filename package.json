@@ -1,6 +1,6 @@
 {
   "name": "@lvjiaxuan/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Lvjx's personal prettier config",
   "keywords": ["prettier", "prettierrc"],
   "files": ["*"],

@@ -1,5 +1,7 @@
 # @lvjiaxuan/prettier-config
 
+[![npm](https://img.shields.io/npm/v/@lvjiaxuan/prettier-config)](https://www.npmjs.com/package/@lvjiaxuan/prettier-config)
+
 > Lvjx's personal prettier config
 
 ## Usage

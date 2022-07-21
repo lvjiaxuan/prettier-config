@@ -11,12 +11,13 @@ Install:
 npm i @lvjiaxuan/prettier-config -D
 pnpm add @lvjiaxuan/prettier-config -D
 yarn add @lvjiaxuan/prettier-config -D
+# antfu/ni
+ni @lvjiaxuan/prettier-config -D
 ```
 
-Edit *package.json*:
+*package.json*:
 ```json
 {
-  // ...
   "prettier": "@lvjiaxuan/prettier-config"
 }
 ```

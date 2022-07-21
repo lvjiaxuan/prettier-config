@@ -1,9 +1,9 @@
-name: 'Create a release'
+name: Create a release
 
 on:
   push:
     tags:
-      - 'v*'
+      - v*
 
 jobs:
   release:
@@ -22,5 +22,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           node-version: 16
-          registry-url: 'https://registry.npmjs.org'
+          registry-url: https://registry.npmjs.org
       - run: npm publish --access public
